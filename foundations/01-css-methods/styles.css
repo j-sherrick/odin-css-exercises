@@ -1,0 +1,22 @@
+body {
+    font: 18px Arial, sans-serif;
+}
+
+div, p {
+    color: white;
+}
+
+div {
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    background-color: green;
+}
+
+button {
+    background-color: orange;
+}
