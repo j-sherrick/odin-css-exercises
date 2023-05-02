@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  /* width: 300px; */
   background: royalblue;
   box-sizing: border-box;
 }
@@ -32,7 +32,6 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 a {
@@ -47,7 +46,7 @@ a {
 }
 
 .sidebar {
-  flex-shrink: 0;
+  flex: 0 300px;
   padding: 16px;
 }
 
@@ -58,8 +57,7 @@ a {
 }
 
 .sidebar ul > li {
-  padding: 0 0 16px 0;
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 .card-container {
