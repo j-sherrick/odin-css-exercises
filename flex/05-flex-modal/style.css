@@ -64,3 +64,41 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* BEGIN DIS MUFUCKIN SOLUTION */
+
+.modal {
+  padding: 15px;
+  display: flex;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
+}
+
+.icon {
+  margin: 0 15px 0 0;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 1.25em;
+  margin: 0 0 15px 0; 
+}
+
+.text {
+  margin: 0 0 15px;
+  font-size: 0.95em;
+  letter-spacing: 0.01em;
+}
+
+button.continue:hover {
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+}
+
+button.cancel:hover {
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+  color: white;
+}
