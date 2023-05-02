@@ -5,13 +5,12 @@ body {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
+  /* height: 72px; */
   background: #eee;
   color: darkmagenta;
 }
@@ -26,4 +25,69 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* HERE I GO, AGAIN ON MY OWOWOWOWN */
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul > li {
+  padding: 0 0 16px 0;
+  margin: 0;
+}
+
+.card-container {
+  flex: 0 60vw;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  flex: 1 300px;
+  padding: 16px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 0;
+  flex: 0 0 72px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 16px;
+}
+
+.footer {
+  flex: 0 0 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
